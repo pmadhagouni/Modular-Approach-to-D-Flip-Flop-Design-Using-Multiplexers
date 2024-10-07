@@ -17,3 +17,12 @@ Our design is quite like the master-slave D flip-flop is made up of two D flip-f
 * The condition we are given is that the clock should run at 1.5 GHz.
 * Converting it to the time we have a clock period of 0.66ns with a pulse width of 0.33ns.
 * T = 1/f = 1 / (1.5 *109) = 0.66 ns.
+
+![image](https://github.com/user-attachments/assets/3dec7ca5-f2d9-4445-940e-42849b82e4b8)
+
+The operation of the D flip-flop is controlled by a clock input, which is used to trigger the flip-flop to store the value on the D input. When the clock input is high, the D input is sampled and stored in the flip-flop, and the Q output reflects the stored value. When the clock input is low, the flip-flop holds the stored value and does not change its state
+
+![image](https://github.com/user-attachments/assets/862e2b8a-fe5c-4cd4-a8ba-7b455b33359b)
+
+The total area of LEAP + PPL = 3960 x 180 =
+712800 nM2 or 712.800 uM2.
